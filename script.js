@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	d3.json("assets/timetable_data.json", function(data, error) {
+
 		init_timeline(data);
 	});	
 	$('#loading').hide();
