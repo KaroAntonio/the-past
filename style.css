@@ -1,0 +1,47 @@
+body,html { margin: 0px; border: 0px; }
+
+#loading {
+	position: absolute;
+	right: 50vw;
+	top: 20vh;
+	width: 40px;
+	height: 40px;
+	z-index: 1000000; /* the highest */
+}
+
+
+.chart {
+	shape-rendering: crispEdges;
+}
+
+.mini text {
+	font: 9px sans-serif;	
+}
+
+.main text {
+	font: 12px sans-serif;	
+}
+
+.miniItem0 {
+	fill: darksalmon;
+	stroke-width: 6;	
+}
+
+.miniItem1 {
+	fill: darkolivegreen;
+	fill-opacity: .7;
+	stroke-width: 6;	
+}
+
+.miniItem2 {
+	fill: slategray;
+	fill-opacity: .7;
+	stroke-width: 6;	
+}
+
+.brush .extent {
+	stroke: gray;
+	fill: dodgerblue;
+	fill-opacity: .365;
+}
+
